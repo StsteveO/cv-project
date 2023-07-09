@@ -1,0 +1,13 @@
+.cv-header{
+    background-color: midnightblue;
+    color: whitesmoke;
+}
+.section-title{
+    font-weight: bold;
+    color: midnightblue;
+    font-style: italic;
+    border-bottom: 2px solid black;
+}
+.description-content{
+    font-style: italic;
+}
