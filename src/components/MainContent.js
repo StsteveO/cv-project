@@ -14,7 +14,8 @@ class MainContent extends Component {
     //destruc.
     return (
       <>
-        <div>MainContent
+        <div>
+            {/* MainContent */}
             <Description />
             <Experience />
             <Education />
