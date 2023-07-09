@@ -15,11 +15,9 @@ class Description extends Component {
         <div>
           <SectionTitle sectionName="Description" />
         </div>
-        <div className="description-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque tenetur, ex, ullam veritatis suscipit qui iure provident similique expedita officia ipsam minima soluta, sit cum! Atque quisquam ea doloribus beatae.
-        Debitis nulla aut vero error! Tenetur, ipsa at. Id facere sapiente accusamus nemo nihil cumque dicta illo quidem odio, in consequuntur eius tempora modi deleniti voluptatibus dolor amet corrupti et?
-        Consequatur, inventore omnis? Laboriosam ex illum vero numquam quo pariatur officiis, saepe iste voluptates, quis voluptate! Vero, eaque, architecto aut minus temporibus corrupti impedit similique alias officia magnam suscipit repellat?
-        Vel earum iste ratione eveniet dolore quaerat nihil? Distinctio dicta, totam odit at suscipit quis doloremque, earum ab aliquid quod autem eos labore amet similique, in omnis neque voluptatibus repudiandae?
-        Neque minus doloremque fugit, totam enim dolore perferendis, similique impedit ratione officia vitae iste reiciendis, unde deserunt explicabo alias. Maiores, ab delectus dolores sed dignissimos sit ullam minima consequatur repellat.</div>
+        <div className="description-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus voluptatem minus rerum numquam consequuntur aliquid a quis suscipit, explicabo ratione error modi assumenda repellat esse animi nisi vero mollitia accusantium?
+        Et officia nostrum laboriosam animi nemo sit, pariatur consectetur, ducimus obcaecati sunt, deleniti cupiditate quod voluptate quidem doloribus! Quisquam error perferendis deserunt dolore itaque? Iste, explicabo ex. Iste, blanditiis unde.
+        Fugit earum, deserunt dicta, nihil corporis voluptatibus dolores, alias nulla aliquam excepturi molestias recusandae cum cumque maiores necessitatibus mollitia a ab. Sequi nobis iusto necessitatibus aspernatur aliquid, eligendi dolore repudiandae!</div>
       </>
     );
   }
