@@ -13,9 +13,9 @@ class CvHeader extends Component {
     return (
       <>
         <div className="cv-header">
-          CvHeader
-          <h1>{`${title} ${firstName} ${lastName} ${credentials}`}</h1>
-          <h3>{jobTitle}</h3>
+          {/* CvHeader */}
+          <h1 className="name-style">{`${title} ${firstName} ${lastName} ${credentials}`}</h1>
+          <h3 className="job-title-style">{jobTitle}</h3>
         </div>
       </>
     );
