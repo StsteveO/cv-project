@@ -1,7 +1,8 @@
 body{
     margin: 0px;
 }
-.example-cv-render{
+.cv-whole-grid{ 
+    /* whole document */
     display: grid;
     grid-template-columns: 65% 1fr;
     grid-template-rows: auto 90%;
@@ -13,7 +14,11 @@ body{
     grid-row-start: 1;
     grid-row-end: 2;
     background-color: midnightblue;
+    color: whitesmoke;
     padding: 2rem;
+    z-index: 2;
+    box-shadow: 0.10rem 0.25rem .9rem black;
+    position: relative;
 }
 .main-content-grid-position{
     grid-column-start: 1;
@@ -29,10 +34,9 @@ body{
     grid-row-start: 2;
     grid-row-end: 3;
     padding: 2rem;
-}
-.cv-header{
-    background-color: midnightblue;
-    color: whitesmoke;
+    box-shadow: -0.2rem 0.25rem 1rem;
+    display: flex;
+    flex-direction: column;
 }
 .name-style{
     margin-top: 0px;
@@ -80,14 +84,6 @@ body{
     grid-row-end: 3;
     font-style: italic;
 }
-.side-panel-inner-positioning{
-    /* display: flex;
-    flex-direction: column; */
-    display: flex;
-    flex-direction: column;
-    /* row-gap: 3rem; */
-    /* padding-top: 2rem; */
-}
 .personal-info-vertical-spacing{
     /* row-gap: 4rem; */
     display: flex;
@@ -101,4 +97,34 @@ body{
     border-radius: 50%;
     width: 100%;
     height: auto;
+}
+.cv-header-name-form,
+.description-form,
+.personalInfoForm,
+.experience-form,
+.education-form{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: blueviolet;
+    color: black;
+}
+.description-form{
+    width: 100%;
+}
+textarea{
+    resize: vertical;
+}
+.multiple-btns{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    padding: 1rem;
+    border-radius: 0.5rem;
 }
