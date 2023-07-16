@@ -153,7 +153,7 @@ class Education extends Component {
           <SectionTitle sectionName="Education" />
           <button onClick={this.toggleEducationModal}>
             {this.state.educationModalIsShowing
-              ? "Close Experience Form"
+              ? "Close Education Form"
               : "Add Education"}
           </button>
           {this.state.educationModalIsShowing && (
